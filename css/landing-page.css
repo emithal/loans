@@ -34,9 +34,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: auto;
-
 }
-
 
 .btn-apply {
   background-color: #d3413f;
@@ -122,6 +120,18 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
+@media only screen and (max-device-width: 768px) {
+  .cards-img {
+    background-attachment: scroll;
+  }
+  header.masthead {
+    background-attachment: scroll;
+  }
+  #contact-info {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
@@ -130,6 +140,7 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+  
 }
 
 .showcase .showcase-text {
@@ -142,7 +153,7 @@ header.masthead h1 {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
   }
